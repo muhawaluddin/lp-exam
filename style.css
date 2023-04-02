@@ -3,9 +3,11 @@
     --color-secondary: #3a0070;
     --color-tertiary: #f999fe;
     --color-light: #fff;
+   
   }
   
   * {
+    font-family: montserrat, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -61,10 +63,12 @@
   nav .container ul {
     display: flex;
     gap: 4rem;
+
   }
   
   a {
     transition: all 300ms ease;
+    text-decoration: none;
   }
   
   nav a:hover {
@@ -158,6 +162,11 @@
     );
   }
   
+  .text-modal {
+    color: #3a0070;
+    text-align: left;
+  }
+
   /* ======= MEDIA QUERY FOR SMALLER SCREENS ======= */
   @media screen and (max-width: 700px) {
     /* NAVIGATION BAR */
