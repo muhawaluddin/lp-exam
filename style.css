@@ -89,14 +89,14 @@
   }
   
   section .container h1 {
-    font-size: 6.5rem;
+    font-size: 10rem;
     text-transform: uppercase;
   }
   
   section .container h3 {
     font-size: 2rem;
     text-transform: uppercase;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
   
   section .container input[type="search"] {
