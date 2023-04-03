@@ -134,7 +134,7 @@
       var(--color-secondary),
       var(--color-primary)
     );
-    padding: 0.7rem 3rem;
+    padding: 1.5rem 3rem;
     margin: 0.4rem;
     border-radius: 2rem;
     position: relative;
